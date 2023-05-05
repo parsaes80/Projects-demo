@@ -1,6 +1,6 @@
 
 %% Discription:
-% Craig Scratchley, Spring 2021Use ode45 and the design of the simple freefall function from Section 10.3 of Physical Modeling in
+
 %MATLAB to model Felix Baumgartner%s altitude, velocity, and acceleration for the first minute after
 %he jumped from 38,969.4 meters above sea level. Compare by plotting modeled altitude, velocity,
 %and acceleration with the data that was measured1 and data derived from those measurements.
