@@ -17,7 +17,7 @@ int bigFib(int n, int maxSize, unsigned **bNP) {
 		return -1;
 	}
 	
-	// ... you can modify any code in this function ****
+	
 	unsigned* bNa = malloc(4*(1 + maxSize));
 	// check for null pointer being returned or not
 	if (bNa== NULL){

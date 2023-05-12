@@ -7,8 +7,8 @@ USE WORK.ALL;
 
 --------------------------------------------------------------
 --
--- Skeleton file for new_balance subblock.  This block is purely
--- combinationalthink Pattern 1 in the slides) and calculates the
+-- This block is purely
+-- combinational and calculates the
 -- new balance after adding winning bets and subtracting losing bets.
 --
 ---------------------------------------------------------------

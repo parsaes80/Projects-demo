@@ -10,7 +10,7 @@ for k=1:n
 end 
 
 lt=zeros(1,3);
-lt(1)= (10^-2)*input("what the location of the test charge on x-axis?");
+lt(1)= (10^-2)*input ("what the location of the test charge on x-axis?");
 lt(2)= (10^-2)*input("what the location of the test charge on y-axis?");
 lt(3)= (10^-2)*input("what the location of the test charge on z-axis?");
 qt= input("what the magnitude of the test charge in nC?");

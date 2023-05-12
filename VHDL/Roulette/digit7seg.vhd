@@ -10,8 +10,6 @@ USE WORK.ALL;
 --  This block will contain a decoder to decode a 4-bit number
 --  to a 7-bit vector suitable to drive a HEX dispaly
 --
---  It is a purely combinational block (think Pattern 1) and
---  is similar to a block you designed in Lab 1.
 --
 --------------------------------------------------------
 

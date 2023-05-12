@@ -7,8 +7,6 @@ USE WORK.ALL;
 
 --------------------------------------------------------------
 --
--- Lucky you !!  We are giving you this code.  There is nothing
--- here you need to add or write.  
 --
 -- This block simulates a spinning wheel.  It consists of 
 -- counter that is always counting.  The output is the value of 

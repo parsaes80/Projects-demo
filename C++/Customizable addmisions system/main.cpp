@@ -22,7 +22,7 @@ void domestic_sort_menu(DomStuLinkedList& domStuLinkedList) {
     cout << "6. Delete a Domestic Student from the list" << endl;
     cout << "7. Delete Head and Tail pointer" << endl;
 
-    string inputFirstName, inputLastName;
+    string inputFirstName,  inputLastName;
     int inputApplicationID;
     float inputCGPA;
     int inputResearchScore;

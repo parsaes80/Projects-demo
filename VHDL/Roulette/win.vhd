@@ -8,14 +8,11 @@ USE WORK.ALL;
 
 --------------------------------------------------------------
 --
---  This is a skeleton you can use for the win subblock.  This block determines
+--  This block determines
 --  whether each of the 3 bets is a winner.  As described in the lab
 --  handout, the first bet is a "straight-up" bet, teh second bet is 
 --  a colour bet, and the third bet is a "dozen" bet.
---
---  This should be a purely combinational block.  There is no clock.
---  Remember the rules associated with Pattern 1 in the lectures.
---
+
 ---------------------------------------------------------------
 
 ENTITY win IS

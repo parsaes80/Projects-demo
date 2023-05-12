@@ -11,43 +11,43 @@ More information on the projects is below:
 
 ARM assembly:
 1. fibonnaci calculator:
-        The first main file is bigAdd.S which adds two large numbers that are stored in memory in little-endian format
-        The second main file is BigFib.c which uses the adder to calculate the next number in our Fibonacci sequence
+        The first main file is bigAdd.S which adds two large numbers that are stored in memory in little-endian format.
+        The second main file is BigFib.c which uses the adder to calculate the next number in our Fibonacci sequence.
 
 C++:
 1. Queue and Deque using Linked Lists:
-        The implementation of deque is done by using a two-way linked list to store and modify the data
-        The Queue class is created by hand-picking the methods from the Deque object
+        The implementation of deque is done by using a two-way linked list to store and modify the data.
+        The Queue class is created by hand-picking the methods from the Deque object.
    
 2. Customizable admission system:
-        This program consists of a student class that has two subclasses to store "domestic" and "international" students
-        Also, there are classes to store the different student data types in a Linked List Data structure
-        The main function handles the interaction with the user and what the program should do next
+        This program consists of a student class that has two subclasses to store "domestic" and "international" students.
+        Also, there are classes to store the different student data types in a Linked List Data structure.
+        The main function handles the interaction with the user and what the program should do next.
 
 3. Heap template data structure:
-        The heap class contains a vector that stores the data and the data is manipulated so that the vector preserves the properties of the heap
+        The heap class contains a vector that stores the data and the data is manipulated so that the vector preserves the properties of the heap.
    
 4. Red Black Tree:
-        Am implementation of a binary tree that will balance itself across all branches so the search time remains low
+        Am implementation of a binary tree that will balance itself across all branches so the search time remains low.
    
 5. Strings lists:
-        This class stores an array of strings and the array size increase if the number of strings gets higher, this is done preserve memory
+        This class stores an array of strings and the array size increase if the number of strings gets higher, this is done preserve memory.
 
 6. sorting algorithms:
-        The algorithms in this class can sort any type of input because they are implemented using template
+        The algorithms in this class can sort any type of input because they are implemented using template.
 
 Matlab:
 1. Spline approximation:
        The best-fit line through a set of data using the spline interpolation method. Both not-a-knot and clamped methods are available in the file.
    
 2. Modeling electric force:
-       Given the amount, number, and location of the charges, this script gives a 3D view of the electric and the magnetic field
+       Given the amount, number, and location of the charges, this script gives a 3D view of the electric and the magnetic field.
 
 3. Lagrange polynomial:
         The best-fit line through a set of data using the Lagrange polynomials, and comparing the error for lower and higher degree polynomials.
    
 4. Gauess-sidel method for matrix equations:
-        An iterative method for solving matrix equations
+        An iterative method for solving matrix equations.
    
 5. Free Fall modeling with ode45:
         This script is a simulation of Felix Baumgartner falling from space using ode45. This simulation is then compared to the real-world data.
