@@ -5,10 +5,10 @@ USE IEEE.NUMERIC_STD.ALL;
 entity divider is
    port ( clk : in std_logic;
 		 dividend : in std_logic_vector(3 downto 0);
-       divisor : in std_logic_vector(3 downto 0);
+         divisor : in std_logic_vector(3 downto 0);
 		 rst : in std_logic;
 		 quotient : out std_logic_vector(3 downto 0);
-       remainder : out std_logic_vector(3 downto 0)
+         remainder : out std_logic_vector(3 downto 0)
 		 );
 end entity divider;
 

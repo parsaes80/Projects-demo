@@ -35,4 +35,4 @@ ylabel("Interpolation")
 legend( 'N=2','N=3','N=4','N=5','N=6','N=7','N=8','N=9', 'location','northeast');
 plot(xp,yp, '-.o')
 axis([2.58 ,5.1 ,2 ,2.8] );
-saveas(gcf,'3.png')
+%saveas(gcf,'3.png')
