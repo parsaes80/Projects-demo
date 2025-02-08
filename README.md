@@ -9,11 +9,15 @@ In this repository, there are List of projects I have developed in SFU. I have C
 
 More information on the projects is below:
 
-ARM assembly:
-1. fibonnaci calculator:
+ARM assembly Fibonacci calculator:
         The first main file is bigAdd.S which adds two large numbers that are stored in memory in little-endian format.
         The second main file is BigFib.c which uses the adder to calculate the next number in our Fibonacci sequence.
 
+MandelBrot Set Renderer:
+Using C++, this project will render the Mandelbrot set using the CPU. This code uses OpenMP to make the code multithreaded and reduce render time.
+SDL2 is also used here as an IO monitor and to create a window and display the rendered image. This is a visual studio project so it's not able to run on Linux.
+However, it should compile on any Windows PC using Visual Studio. There are options at the start of the main.cpp file to customize your render to your liking.
+ 
 C++:
 1. Queue and Deque using Linked Lists:
         The implementation of deque is done by using a two-way linked list to store and modify the data.
@@ -28,20 +32,20 @@ C++:
         The heap class contains a vector that stores the data and the data is manipulated so that the vector preserves the properties of the heap.
    
 4. Red Black Tree:
-        Am implementation of a binary tree that will balance itself across all branches so the search time remains low.
+        An implementation of a binary tree that will balance itself across all branches to reduce search time.
    
 5. Strings lists:
-        This class stores an array of strings and the array size increase if the number of strings gets higher, this is done preserve memory.
+        This class stores an array of strings and the array size increases if the number of strings gets higher, this is done to preserve memory.
 
 6. sorting algorithms:
-        The algorithms in this class can sort any type of input because they are implemented using template.
+        Using templates, the algorithms in this class can sort any type of input.
 
 Matlab:
 1. Spline approximation:
        The best-fit line through a set of data using the spline interpolation method. Both not-a-knot and clamped methods are available in the file.
    
 2. Modeling electric force:
-       Given the amount, number, and location of the charges, this script gives a 3D view of the electric and the magnetic field.
+       Given the amount, number, and location of the charges, this script gives a 3D view of the electric and magnetic field.
 
 3. Lagrange polynomial:
         The best-fit line through a set of data using the Lagrange polynomials, and comparing the error for lower and higher degree polynomials.
@@ -62,7 +66,7 @@ VHDL:
    
 2. Roulette:
         This project contains the system needed to play a game of roulette. The spinwheel generates a random number.
-        Based on the inputs and the spinwheel number win.vhd calculates which bets are won dn lost and new_balance.vhd calculated the new money balance.
+        Based on the inputs and the spinwheel number win.vhd calculates which bets are won and lost and new_balance.vhd calculated the new money balance.
         Also, there are register and a 7seg display for I/O. After this, you won't have to go to Vegas anymore.  
 
 4. UART receiver and transmitter:
