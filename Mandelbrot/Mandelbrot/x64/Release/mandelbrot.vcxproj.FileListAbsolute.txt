@@ -1,0 +1,1 @@
+C:\Users\Parsa\source\repos\mandelbrot\mandelbrot\x64\Release\mandelbrot.vcxproj.CopyComplete
