@@ -34,12 +34,12 @@ C++:
         The second main file is BigFib.c which uses the adder to calculate the next number in our Fibonacci sequence.
 
 8. MandelBrot Set Renderer:
-        Using C++, this project will render the Mandelbrot set using the CPU. This code uses OpenMP to make the code multithreaded and reduce render time.
+        Using C++, this project renders the Mandelbrot set using the CPU. This code uses OpenMP to make the code multithreaded and reduce render time.
         SDL2 is also used here as an IO monitor and to create a window and display the rendered image. This is a visual studio project so it's not able to run on Linux unless you rewrite it in CMake.
         There are options at the start of the main.cpp file to customize your render to your liking.
    
-9. MandelBrot Set Renderer:
-        Using C++, this project will render the Mandelbrot set using the CPU. This code uses std::execution to make the code multithreaded and reduce render time.
+9. Qt MandelBrot Set Renderer:
+        Using C++, this project renders the Mandelbrot set using the CPU. This code uses std::execution to make the code multithreaded and reduce render time.
         This time we are using the Qt framework to render it (Yes I love Mandelbrot set). The main feature here is that this code will assign a different color
         to the pixel based on how long it took to exit the set, making the image much more pretty. 
 
