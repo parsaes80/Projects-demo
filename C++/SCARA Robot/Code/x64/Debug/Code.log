@@ -1,0 +1,6 @@
+﻿  ProgrammingDemo.cpp
+ProgrammingDemo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) bool __cdecl MoveToConfiguration(double (&)[4],bool)" (__imp_?MoveToConfiguration@@YA_NAEAY03N_N@Z) referenced in function main
+ProgrammingDemo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) bool __cdecl GetConfiguration(double (&)[4])" (__imp_?GetConfiguration@@YA_NAEAY03N@Z) referenced in function main
+ProgrammingDemo.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) bool __cdecl Grasp(bool)" (__imp_?Grasp@@YA_N_N@Z) referenced in function main
+..\CopytoYourDir2023\PowerCubeSim.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Parsa\Dropbox\ENSC 488\Lab\Lab1\Code\x64\Debug\Code.exe : fatal error LNK1120: 3 unresolved externals

@@ -1,0 +1,2 @@
+C:\Users\Parsa\source\repos\mandelbrot\mandelbrot\x64\Release\mandelbrot.vcxproj.CopyComplete
+C:\Users\Parsa\Data\Coding_Projects\C++\Mandelbrot\Mandelbrot\x64\Release\Mandelbr.2CBF010D.Up2Date
