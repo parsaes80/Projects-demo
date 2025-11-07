@@ -1,22 +1,11 @@
 # Projects-demo
 hello!
 
-
 Welcome to my repository. I'm currently studying systems engineering at SFU.
 
-
-In this repository, there are List of projects I have developed in SFU. I have Categorized them by coding language. Enjoy the code :)
+In this repository, there are List of projects I have developed in SFU and by myself. I have Categorized them by coding language. Enjoy the code :)
 
 More information on the projects is below:
-
-ARM assembly Fibonacci calculator:
-        The first main file is bigAdd.S which adds two large numbers that are stored in memory in little-endian format.
-        The second main file is BigFib.c which uses the adder to calculate the next number in our Fibonacci sequence.
-
-MandelBrot Set Renderer:
-Using C++, this project will render the Mandelbrot set using the CPU. This code uses OpenMP to make the code multithreaded and reduce render time.
-SDL2 is also used here as an IO monitor and to create a window and display the rendered image. This is a visual studio project so it's not able to run on Linux.
-However, it should compile on any Windows PC using Visual Studio. There are options at the start of the main.cpp file to customize your render to your liking.
  
 C++:
 1. Queue and Deque using Linked Lists:
@@ -39,6 +28,20 @@ C++:
 
 6. sorting algorithms:
         Using templates, the algorithms in this class can sort any type of input.
+   
+7. ARM assembly Fibonacci calculator:
+        The first main file is bigAdd.S which adds two large numbers that are stored in memory in little-endian format.
+        The second main file is BigFib.c which uses the adder to calculate the next number in our Fibonacci sequence.
+
+8. MandelBrot Set Renderer:
+        Using C++, this project will render the Mandelbrot set using the CPU. This code uses OpenMP to make the code multithreaded and reduce render time.
+        SDL2 is also used here as an IO monitor and to create a window and display the rendered image. This is a visual studio project so it's not able to run on Linux unless you rewrite it in CMake.
+        There are options at the start of the main.cpp file to customize your render to your liking.
+   
+9. MandelBrot Set Renderer:
+        Using C++, this project will render the Mandelbrot set using the CPU. This code uses std::execution to make the code multithreaded and reduce render time.
+        This time we are using the Qt framework to render it (Yes I love Mandelbrot set). The main feature here is that this code will assign a different color
+        to the pixel based on how long it took to exit the set, making the image much more pretty. 
 
 Matlab:
 1. Spline approximation:
@@ -59,7 +62,9 @@ Matlab:
 6. Finding polynomial roots using Newton's method:
        Using Newton's method, this script finds the answer for (f = x^4  -x^3). After that, the rate of convergence (α) and the error constant(λ) are calculated.
 
-
+7. Self Inveting pendulum:
+       Created a MATLAB/Simulink program to automatically invert a pendulum attached to a cube servo 3 motor.
+   
 VHDL:
 1. Divider FSM:
         A finite state machine that divides two 4-bit numbers, and outputs the quotient and the remainder. The testbench is also available for running the simulation.
